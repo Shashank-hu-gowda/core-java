@@ -1,0 +1,24 @@
+class HeadPhoneDetails{
+
+    static String brand = "Boult";
+    static int price = 2000;
+    static boolean isBlutooth = true;
+
+    static String getBrand()
+    {
+        return brand;
+    }
+    static void getPrice()
+    {
+        return price;
+    }
+    static String getBrand(String brand)
+    {
+        return brand;
+    }
+    static boolean getBlutooth(boolean isBlutooth)
+    {
+        return isBlutooth;
+    }
+}
+
